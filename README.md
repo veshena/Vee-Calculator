@@ -20,7 +20,7 @@ When you click any number button and use any operator button you must get an acc
 React components tree: 
 I have my regular App.js, App.css and I made a component and inside that I have 1 file called Calculator.
 
-Diagram out your component hierarchy, indicating which components are parents/children of which others. Indicate which components hold which pieces of state, and which props are passed to each child.
+<!-- Diagram out your component hierarchy, indicating which components are parents/children of which others. Indicate which components hold which pieces of state, and which props are passed to each child. -->
 
-MVP checklist: A list of all the functionalities that will constitute the bare minimum version of your app. Note that this list should be sized so that you can complete it by Wednesday, leaving Thursday and Friday to tackle bonus goals.
-Bonus goals: A list of awesome bonus goals you will work on after completing your MVP.
+<!-- MVP checklist: A list of all the functionalities that will constitute the bare minimum version of your app. Note that this list should be sized so that you can complete it by Wednesday, leaving Thursday and Friday to tackle bonus goals.
+Bonus goals: A list of awesome bonus goals you will work on after completing your MVP. -->
