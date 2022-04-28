@@ -29,7 +29,7 @@ When you click any number button and use any operator button you must get an acc
 React components tree: 
 
 I have 3 files
-1. App.js  (where I imported App.css, and my Calculator.js from it's components folder. Inside my function App() I have my <h1> title and I rendered my <Calculator/> to the page.)
+1. App.js  (where I imported App.css, and my Calculator.js from it's components folder. Inside my function App() I have my h1> title and I rendered my Calculator/> to the page.)
 
 2. 1 component with 1 file called Calculator.js(where I imported useState from "react". Inside my function Calculator() my [result, setResult] is set to an empty string. I used onClick for all my buttons 
     1. My click button controls both the operator and the number buttons. I setResult using the concat() method in order to create a new array everytime you input somthing. 
