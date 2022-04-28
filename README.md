@@ -1,13 +1,14 @@
-#MY CALCULATOR
+# VEE CALCULATOR
 
 Overview: 
 I'm going to be building a simple calculator by incorporating what I've learned about React state.
 
-Wireframes: 
+Wireframe: 
 https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=M70ba3652329c214e792d6ff405cd6c5b1651073748716&perm=Create&projectid=MghY35NyCnb&spaceid=MyeoLtNyCnb&ptitle=Untitled&bgcolor=white&category=M9fed2da50c6980c8a4f3699a6836e9c91596189396438&pcompany=Ca6f2d1e7da404a4787a17d419b1589e6&store=yes#/page/5a65c82e2d4a4398867541efc2a359cd
 
+
 User stories: 
-When you click any number button and use any operator button you must get an accurate result after clicking the equal button.
+When you click any number button and use any operator button you must get an accurate answer after clicking the equal button.
 
 1. The number buttons are labled ( 0 - 9 including the . button )
 2. The 5 operator buttons are ( / , * , + , - , and = )
@@ -16,7 +17,10 @@ When you click any number button and use any operator button you must get an acc
 
 
 
-React components tree: Diagram out your component hierarchy, indicating which components are parents/children of which others. Indicate which components hold which pieces of state, and which props are passed to each child.
+React components tree: 
+I have my regular App.js, App.css and I made a component and inside that I have 1 file called Calculator.
+
+Diagram out your component hierarchy, indicating which components are parents/children of which others. Indicate which components hold which pieces of state, and which props are passed to each child.
 
 MVP checklist: A list of all the functionalities that will constitute the bare minimum version of your app. Note that this list should be sized so that you can complete it by Wednesday, leaving Thursday and Friday to tackle bonus goals.
 Bonus goals: A list of awesome bonus goals you will work on after completing your MVP.
