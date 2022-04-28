@@ -29,18 +29,11 @@ When you click any number button and use any operator button you must get an acc
 React components tree: 
 
 I have 3 files
-1. App.js 
+1. App.js  (where I imported App.css, and my Calculator.js from it's components folder. Inside my function App() I have my <h1> title and I rendered my <Calculator/> to the page.)
 
-(where I imported App.css, and my Calculator.js from it's components folder. Inside my function App() I have my <h1> title and I rendered my <Calculator/> to the page.)
-
-2. 1 component with 1 file called Calculator.js
-
-(where I imported useState from "react". Inside my function Calculator() my [result, setResult] is set to an empty string. I used onClick for all my buttons 
+2. 1 component with 1 file called Calculator.js(where I imported useState from "react". Inside my function Calculator() my [result, setResult] is set to an empty string. I used onClick for all my buttons 
     1. My click button controls both the operator and the number buttons. I setResult using the concat() method in order to create a new array everytime you input somthing. 
     2. My clear button clears everything from the input field so I setResult to an empty string that way it remains empty.
-    3. My equal button gives an accurate answer to the equation. I setReult using the eval() method which functions as a string and is used to evaluate expressions or multiple statements.
-I also have 5 <divs> which contains the specific buttons)
+    3. My equal button gives an accurate answer to the equation. I setReult using the eval() method which functions as a string and is used to evaluate expressions or multiple statements. I also have 5 <divs> which contains the specific buttons)
 
-3. App.css 
-
-(where I did all my styling for the classNames in my Calculator.js)
+3. App.css  (where I did all my styling for the classNames in my Calculator.js)
