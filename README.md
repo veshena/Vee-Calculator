@@ -1,4 +1,4 @@
-MY CALCULATOR
+#MY CALCULATOR
 
 Overview: 
 I'm going to be building a simple calculator by incorporating what I've learned about React state.
