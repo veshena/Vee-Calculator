@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+MY CALCULATOR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview: 
+I'm going to be building a simple calculator by incorporating what I've learned about React state.
 
-## Available Scripts
+Wireframes: 
+https://wireframepro.mockflow.com/editor.jsp?editor=on&publicid=M70ba3652329c214e792d6ff405cd6c5b1651073748716&perm=Create&projectid=MghY35NyCnb&spaceid=MyeoLtNyCnb&ptitle=Untitled&bgcolor=white&category=M9fed2da50c6980c8a4f3699a6836e9c91596189396438&pcompany=Ca6f2d1e7da404a4787a17d419b1589e6&store=yes#/page/5a65c82e2d4a4398867541efc2a359cd
 
-In the project directory, you can run:
+User stories: 
+When you click any number button and use any operator button you must get an accurate result after clicking the equal button.
 
-### `npm start`
+1. The number buttons are labled ( 0 - 9 including the . button )
+2. The 5 operator buttons are ( / , * , + , - , and = )
+3. I also included a clear button ( C ) that would erase the entire input field.
+4. The result would display in the input field after clicking equal opp
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+React components tree: Diagram out your component hierarchy, indicating which components are parents/children of which others. Indicate which components hold which pieces of state, and which props are passed to each child.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+MVP checklist: A list of all the functionalities that will constitute the bare minimum version of your app. Note that this list should be sized so that you can complete it by Wednesday, leaving Thursday and Friday to tackle bonus goals.
+Bonus goals: A list of awesome bonus goals you will work on after completing your MVP.

@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&family=IBM+Plex+Sans+Condensed:ital,wght@1,700&family=Permanent+Marker&family=Road+Rage&family=Rubik+Moonrocks&family=Sansita+Swashed:wght@900&family=Shizuru&family=Square+Peg&family=Syne+Mono&family=Updock&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+body {
+  background-image: url(https://t4.ftcdn.net/jpg/02/99/84/89/360_F_299848927_S0EwX0P6HWGigW6qZWFIBaczKMQuq5D9.jpg);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  font-family: 'Rubik Moonrocks', cursive;
+  font-style: italic;
+  margin: 14px;
+  padding: 20px;
+  min-height: 70vh;
+  display: flex;
+}
+.title {
+  color: rgb(221, 87, 49);
+  text-align: center;
+  padding: 12px;
+  border-radius: 14px;
+  margin: 20px;
+  border-style: inherit;
+  background-image: url(https://i.pinimg.com/736x/51/85/f8/5185f81a51ecab4597a088910a9189c3.jpg);
+  font-size: 60px;
+  box-shadow: 0 5px 40px 15px rgb(246, 174, 66);
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.box {
+  background-image: url(https://i.pinimg.com/736x/51/85/f8/5185f81a51ecab4597a088910a9189c3.jpg);
+  padding: 10px;
+  border-radius: 14px;
+  margin: 2px;
+  box-shadow: 0 5px 40px 15px rgb(246, 174, 66);
+}
+.numbers {
+  padding: 20px;
+  margin: 10px;
+  font-size: 40px;
+  text-align: right;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color:rgb(248, 195, 70);
+}
+.cal {
+  margin: 20px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 5px 30px 10px rgb(246, 174, 66);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+.btn-opp {
+  min-height: 80px;
+  min-width: 70px;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #ED7238;
+}
+.btn-opp:hover {
+  background-color: rgb(236, 151, 60);
+}
+.btn-clear {
+  min-height: 80px;
+  min-width: 100px;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 1px;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: rgb(221, 87, 49);
+}
+.btn-clear:hover {
+  background-color: rgb(248, 195, 70);
+}
+.btn {
+  min-height: 80px;
+  min-width: 90px;
+  font-size: 60px;
+  margin: 1px;
+  font-weight: 100;
+  border-radius: 20px;
+  cursor: pointer;
+  background-color: rgb(237, 131, 58);
+}
+.btn:hover {
+  background-color: rgb(247, 213, 105);
 }
